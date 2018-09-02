@@ -4,15 +4,19 @@ Eduapp is used to educate technical people.
 
 Installation:
 
-create eduapp account
+create ubuntu account [if needed]
 
 ```
-useradd -m -s /bin/bash -G sudo eduapp
+sudo useradd -m -s /bin/bash -G sudo ubuntu
+sudo passwd ubuntu
 ```
 
 login
 ```
-ssh -AY eduapp@localhost
+If on local laptop with X-windows:
+ssh -AY ubuntu@localhost
+or
+ssh ubuntu@some-aws-ip
 ```
 
 clone the repo
