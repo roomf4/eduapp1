@@ -22,7 +22,7 @@ ssh ubuntu@some-aws-ip
 clone the repo
 
 ```
-git clone git@github.com:eduapp1
+git clone https://github.com/roomf4/eduapp1
 ```
 
 call start.bash
